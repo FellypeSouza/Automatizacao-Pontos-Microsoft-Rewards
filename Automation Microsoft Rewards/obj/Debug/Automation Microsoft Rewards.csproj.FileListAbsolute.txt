@@ -1,0 +1,10 @@
+C:\Users\felly\source\repos\Automation Microsoft Rewards\Automation Microsoft Rewards\bin\Debug\Automation Microsoft Rewards.exe.config
+C:\Users\felly\source\repos\Automation Microsoft Rewards\Automation Microsoft Rewards\bin\Debug\Automation Microsoft Rewards.exe
+C:\Users\felly\source\repos\Automation Microsoft Rewards\Automation Microsoft Rewards\bin\Debug\Automation Microsoft Rewards.pdb
+C:\Users\felly\source\repos\Automation Microsoft Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.csproj.AssemblyReference.cache
+C:\Users\felly\source\repos\Automation Microsoft Rewards\Automation Microsoft Rewards\obj\Debug\Automation_Microsoft_Rewards.AutomationScreen.resources
+C:\Users\felly\source\repos\Automation Microsoft Rewards\Automation Microsoft Rewards\obj\Debug\Automation_Microsoft_Rewards.Properties.Resources.resources
+C:\Users\felly\source\repos\Automation Microsoft Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.csproj.GenerateResource.cache
+C:\Users\felly\source\repos\Automation Microsoft Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.csproj.CoreCompileInputs.cache
+C:\Users\felly\source\repos\Automation Microsoft Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.exe
+C:\Users\felly\source\repos\Automation Microsoft Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.pdb
