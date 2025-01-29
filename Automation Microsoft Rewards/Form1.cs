@@ -145,5 +145,20 @@ namespace Automation_Microsoft_Rewards
             
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.Text == "English")
+            {
+                languageLabel.Text = "Select your language";
+                startAutomation.Text = "Start automation";
+                pauseAutomation.Text = "Pause automation";
+            }
+            else if (comboBox1.Text == "Português PT-BR") 
+            {
+                languageLabel.Text = "Selecione seu Idioma";
+                startAutomation.Text = "Iniciar automatização";
+                pauseAutomation.Text = "Pausar automatização";
+            }
+        }
     }
 }
