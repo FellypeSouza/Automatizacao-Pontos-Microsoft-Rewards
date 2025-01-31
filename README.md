@@ -1,4 +1,8 @@
 <h1>Software de Automatização Microsoft Rewards</h1>
+<img src="./screenShot.png"/>
+<a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cs,windows" />
+</a>
 <div>
   <h4>O que é Microsoft Rewards ?</h4>
   <p>O Microsoft Rewards é um programa de fidelidade da Microsoft 
@@ -14,3 +18,4 @@
   <h4>O que o software automatiza ?</h4>
   <p>No momento o software automatiza apenas as pesquisas no Bing.</p>
 </div>
+
