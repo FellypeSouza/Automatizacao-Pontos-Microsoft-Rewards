@@ -117,7 +117,7 @@ namespace Automation_Microsoft_Rewards
                 {
                     int interval = 7000;
                     TimerStatus = true;
-                    while (true)
+                    while (TimerStatus == true)
                     {
                         Movements();
                         await Task.Delay(interval);
@@ -131,18 +131,18 @@ namespace Automation_Microsoft_Rewards
             }
         }
         int i = 0;
-        private void Movements()
+        private void pauseAutomation_Click(object sender, EventArgs e)
+        {
+            TimerStatus = false;
+        }
+        private void Movements()//Movimentos do mouse e teclado
         {
             String[] words = {"berserk","call","jumanji","pagani","corsa","daemon","dark souls","apex","fifa","gallardo","halo","ios","json","kotlin","lacoste","microsoft","nodejs","opl","pocket","qiron","rocket","salazar","trussher","uplay","vinha","windows","xaman","bmw","ferrari"};
-            MoveMouse(410,67);
+            MoveMouse(410,67);//Coordenadas onde se encontra a barra de pesquisa
             ClickMouse();
             SendKeys.Send(words[i]);
             SendKeys.Send("{Enter}");
             i++;
-        }
-        private void pauseAutomation_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -158,6 +158,24 @@ namespace Automation_Microsoft_Rewards
                 languageLabel.Text = "Selecione seu Idioma";
                 startAutomation.Text = "Iniciar automatização";
                 pauseAutomation.Text = "Pausar automatização";
+            }
+        }
+
+        private void helpButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("First Open the Microsoft Edge\nOpen the automation software\nClick in Start Button");
+        }
+
+        private void restart_Click(object sender, EventArgs e)
+        {
+            i = 0;
+            if(i == 0)
+            {
+                MessageBox.Show("Success");
+            }
+            else
+            {
+                MessageBox.Show("Error");
             }
         }
     }
