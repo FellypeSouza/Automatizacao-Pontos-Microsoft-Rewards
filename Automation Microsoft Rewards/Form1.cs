@@ -152,18 +152,29 @@ namespace Automation_Microsoft_Rewards
                 languageLabel.Text = "Select your language";
                 startAutomation.Text = "Start automation";
                 pauseAutomation.Text = "Pause automation";
+                helpButton.Text = "Help";
+                restart.Text = "Restart";
             }
             else if (comboBox1.Text == "Português PT-BR") 
             {
                 languageLabel.Text = "Selecione seu Idioma";
-                startAutomation.Text = "Iniciar automatização";
-                pauseAutomation.Text = "Pausar automatização";
+                startAutomation.Text = "Iniciar";
+                pauseAutomation.Text = "Pausar";
+                helpButton.Text = "Ajuda";
+                restart.Text = "Reiniciar";
             }
         }
 
         private void helpButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("First Open the Microsoft Edge\nOpen the automation software\nClick in Start Button");
+            if (comboBox1.Text == "English")
+            {
+                MessageBox.Show("1) First Open the Microsoft Edge\n2) Open the automation software\n3) Click in Start Button");
+            }
+            else
+            {
+                MessageBox.Show("1) Primeiro abra o Microsoft Edge\n2) Abra o software de automação\n3) Aperte em iniciar");
+            }
         }
 
         private void restart_Click(object sender, EventArgs e)
@@ -171,11 +182,27 @@ namespace Automation_Microsoft_Rewards
             i = 0;
             if(i == 0)
             {
-                MessageBox.Show("Success");
+                if (comboBox1.Text == "English")
+                {
+                    MessageBox.Show("Success");
+                 
+                }
+                else
+                {
+                    MessageBox.Show("Sucesso");
+                }
             }
             else
             {
-                MessageBox.Show("Error");
+                if (comboBox1.Text == "English")
+                {
+                    MessageBox.Show("Error");
+
+                }
+                else
+                {
+                    MessageBox.Show("Erro");
+                }
             }
         }
     }
