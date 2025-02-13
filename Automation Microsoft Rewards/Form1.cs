@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
 using System.Threading;
 using System.Windows.Forms;
-using System.Timers;
-using System.Drawing.Text;
 
 namespace Automation_Microsoft_Rewards
 {
@@ -17,6 +12,7 @@ namespace Automation_Microsoft_Rewards
         public AutomationScreen()
         {
             InitializeComponent();
+            comboBox1.SelectedItem = "English";
         }
         // Estrutura de dados para o movimento do mouse
         [StructLayout(LayoutKind.Sequential)]
@@ -150,7 +146,7 @@ namespace Automation_Microsoft_Rewards
             var screen = Screen.PrimaryScreen;
             int width = screen.Bounds.Width;
             int height = screen.Bounds.Height;
-            MoveMouse((width / 2), (Convert.ToInt16(height * 0.065)));//Coordenadas onde se encontra a barra de pesquisa
+            MoveMouse((width / 2), 55);//Coordenadas onde se encontra a barra de pesquisa
             ClickMouse();
             SendKeys.Send(words[i]);
             SendKeys.Send("{Enter}");
