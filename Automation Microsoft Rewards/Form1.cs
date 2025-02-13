@@ -54,9 +54,10 @@ namespace Automation_Microsoft_Rewards
         public static extern uint SendInput(uint nInputs, INPUT[] pInputs, int cbSize);
         static void MoveMouse(int x, int y)
         {
+            var screen = Screen.PrimaryScreen;
             // A resolução de tela é necessária para mapear as coordenadas absolutas
-            int screenWidth = 1366;  // Ajuste conforme a resolução da sua tela
-            int screenHeight = 768; // Ajuste conforme a resolução da sua tela
+            int screenWidth = screen.Bounds.Width;  // Ajuste conforme a resolução da tela
+            int screenHeight = screen.Bounds.Height; // Ajuste conforme a resolução da tela
 
             // A conversão para coordenadas absolutas: mapeia a posição para a tela
             int absX = (x * 0xFFFF) / screenWidth;
@@ -134,11 +135,22 @@ namespace Automation_Microsoft_Rewards
         private void pauseAutomation_Click(object sender, EventArgs e)
         {
             TimerStatus = false;
+            if (comboBox1.Text == "English")
+            {
+                MessageBox.Show("Stopped");
+            }
+            else
+            {
+                MessageBox.Show("Pausado");
+            }
         }
         private void Movements()//Movimentos do mouse e teclado
         {
             String[] words = {"berserk","call","jumanji","pagani","corsa","daemon","dark souls","apex","fifa","gallardo","halo","ios","json","kotlin","lacoste","microsoft","nodejs","opl","pocket","qiron","rocket","salazar","trussher","uplay","vinha","windows","xaman","bmw","ferrari"};
-            MoveMouse(410,67);//Coordenadas onde se encontra a barra de pesquisa
+            var screen = Screen.PrimaryScreen;
+            int width = screen.Bounds.Width;
+            int height = screen.Bounds.Height;
+            MoveMouse((width / 2), (Convert.ToInt16(height * 0.065)));//Coordenadas onde se encontra a barra de pesquisa
             ClickMouse();
             SendKeys.Send(words[i]);
             SendKeys.Send("{Enter}");

@@ -18,3 +18,13 @@ C:\Users\felly\Desktop\MR\Automatizacao-Pontos-Microsoft-Rewards\Automation Micr
 C:\Users\felly\Desktop\MR\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.csproj.CoreCompileInputs.cache
 C:\Users\felly\Desktop\MR\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.exe
 C:\Users\felly\Desktop\MR\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.pdb
+C:\Users\Fellype\Desktop\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\bin\Debug\Automation Microsoft Rewards.exe.config
+C:\Users\Fellype\Desktop\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\bin\Debug\Automation Microsoft Rewards.exe
+C:\Users\Fellype\Desktop\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\bin\Debug\Automation Microsoft Rewards.pdb
+C:\Users\Fellype\Desktop\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.csproj.AssemblyReference.cache
+C:\Users\Fellype\Desktop\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\obj\Debug\Automation_Microsoft_Rewards.AutomationScreen.resources
+C:\Users\Fellype\Desktop\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\obj\Debug\Automation_Microsoft_Rewards.Properties.Resources.resources
+C:\Users\Fellype\Desktop\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.csproj.GenerateResource.cache
+C:\Users\Fellype\Desktop\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.csproj.CoreCompileInputs.cache
+C:\Users\Fellype\Desktop\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.exe
+C:\Users\Fellype\Desktop\Automatizacao-Pontos-Microsoft-Rewards\Automation Microsoft Rewards\obj\Debug\Automation Microsoft Rewards.pdb
